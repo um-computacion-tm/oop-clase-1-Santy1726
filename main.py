@@ -2,8 +2,8 @@ from persona import Persona
 
 if __name__ == '__main__':
     persona = Persona()
-    print(persona)  
+    print(persona.__nombre__)  
     persona = Persona()
-    print(persona)
+    print(persona.__apellido__)
     persona = Persona()
-    print(persona)
+    print(persona.__du__)
